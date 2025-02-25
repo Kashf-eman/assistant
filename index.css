@@ -61,3 +61,51 @@ cursor :pointer
    letter-spacing: 2px; 
     box-shadow: 2px 2px 20px rgb(44, 180, 214) ,2px 2px 20px rgb(214, 40, 142);  
 }
+@media (max-width:1000px){
+    #img{
+        width: 33vw;
+        height: 55vh;
+        
+     
+    }
+}
+@media (max-width:870px){
+    #img{
+        width: 42vw;
+        height: 58vh;}
+        #name{
+            font-size: 35px;
+      
+        }
+        #va{
+            font-size: 35px;
+           
+        }
+        #btn{
+            width: 50%;
+        }
+}
+@media (max-width:520px){
+    #img{
+        width: 72vw;} 
+        h1{
+            font-size: 30px;
+            padding: 0 20px;
+            text-align: center;
+        }
+        #btn{
+            width: 80%;
+        }
+}
+@media (max-width:390px){
+#voice{
+    width: 190px;
+    
+    margin-top: -32px;
+}
+}
+@media (max-width:320px){
+    #btn{
+        width: 90%;
+    }
+}
